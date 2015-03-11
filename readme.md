@@ -1,6 +1,7 @@
 ## Hashtag Subscription registrieren.
 
-1. Instagram App anlegen.
-2. App Secret und App Id in der crawl.php eintragen. Zeile 1 - 2
-3. Hashtag in der crawl.php in Zeile 11 und in der callback.php in Zeile 17 eintragen.
-4. Datenbank Konfiguration in der config.php anpassen.
+1. Create Instagram App.
+2. Enter app id and app secret into `crawl.php` row 1-2.
+3. Specify Hashtag in `crawl.php` row 11 & `callback.php` row 17.
+4. Enter your DB credentials in `config.php`.
+5. Make a request to `crawl.php` on your server.
